@@ -37,7 +37,7 @@ export default function Hero() {
               Get in Touch
             </a>
             <a
-              href="/Resume.pdf"
+              href="/Final Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg font-semibold text-white hover:bg-gray-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
@@ -87,3 +87,4 @@ export default function Hero() {
     </section>
   );
 }
+
