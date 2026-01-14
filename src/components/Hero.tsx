@@ -35,16 +35,11 @@ export default function Hero() {
             >
               <Mail size={20} />
               Get in Touch
-            </a>
-<a
-  href={`${import.meta.env.BASE_URL}SahilResume.pdf`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg font-semibold text-white hover:bg-gray-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
->
-  <FileText size={20} />
-  View Resume
-</a>
+            </a>              
+            <a 
+              href="/Public/sahilResume.pdf" 
+              target="_blank" rel="noopener noreferrer" 
+              className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg font-semibold text-white hover:bg-gray-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105" >
 
               <FileText size={20} />
               View Resume
