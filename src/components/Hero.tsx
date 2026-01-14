@@ -36,14 +36,14 @@ export default function Hero() {
               <Mail size={20} />
               Get in Touch
             </a>              
-            <a 
-              href="https://sahilpatel318.github.io/Portfolio-Website/SahilResume.pdf" 
-              target="_blank" rel="noopener noreferrer" 
-              className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg font-semibold text-white hover:bg-gray-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105" >
+           <a
+             href={`${import.meta.env.BASE_URL}sahilResume.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+>
+  View Resume
+</a>
 
-              <FileText size={20} />
-              View Resume
-            </a>
           </div>
 
           <div className="flex items-center justify-center gap-6 mb-16">
@@ -86,6 +86,7 @@ export default function Hero() {
     </section>
   );
 }
+
 
 
 
